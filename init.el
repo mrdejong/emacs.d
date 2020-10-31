@@ -182,6 +182,9 @@
 (use-package counsel-projectile
   :config (counsel-projectile-mode 1))
 
+(setenv "GIT_ASKPASS" "git-gui--askpass")
+(setenv "SSH_ASKPASS" "git-gui--askpass")
+
 (use-package magit
   :commands (magit-status magit-get-current-branch)
   :custom
