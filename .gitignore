@@ -3,3 +3,6 @@ server/
 projectile*
 elpa/
 transient/
+
+.#*
+#*
